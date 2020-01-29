@@ -50,77 +50,11 @@ for the most common UNIX, Linux, macOS, SunOS and Windows commands.
 
 ## Clients
 
-You can access these pages on your computer using one of the following clients:
-
-- [Alfred Workflow](https://github.com/cs1707/tldr-alfred)
-- Android clients:
-  - [tldroid](https://github.com/hidroh/tldroid), available on
-    [Google Play](https://play.google.com/store/apps/details?id=io.github.hidroh.tldroid) *(outdated)*
-- Bash clients:
-  - [tldr](https://github.com/raylee/tldr)
-  - [tldr-bash-client](https://gitlab.com/pepa65/tldr-bash-client)
-- [C# client](https://github.com/principis/tldr-sharp)
-- [C client](https://github.com/tldr-pages/tldr-cpp-client):
-  `brew install tldr`
-- [Chrome Extension](https://github.com/hill/tldr-chrome) available on
-  [Chrome Web Store](https://chrome.google.com/webstore/detail/tldr-chrome/nnmlddkpgoecicoallmimonoboialpap)
-- [Crystal client](https://github.com/porras/tlcr):
-  `brew install porras/tap/tlcr`
-- [Dart client](https://github.com/hterkelsen/tldr):
-  `pub global activate tldr`
-- [Dash docset](https://github.com/Moddus/tldr-python-dash-docset):
-  Open `Preferences > Downloads > User Contributed` and find `tldr pages` in the list
-- Docker images:
-    - [tldr-docker](https://github.com/nutellinoit/tldr-docker)- Run the `tldr` command via a docker container: `alias tldr='docker run --rm -it -v ~/.tldr/:/root/.tldr/ nutellinoit/tldr'`
-- [Elixir client](https://github.com/edgurgel/tldr_elixir_client)
-  (binaries not yet available)
-- [Emacs client](https://github.com/kuanyui/tldr.el), available on
-  [MELPA](https://github.com/melpa/melpa)
-- Go clients:
-  - [github.com/pranavraja/tldr](https://github.com/pranavraja/tldr):
-    `go get github.com/pranavraja/tldr`
-    (or [platform binaries](https://github.com/pranavraja/tldr/releases))
-  - [4d63.com/tldr](https://4d63.com/tldr):
-    `go get 4d63.com/tldr` or `brew install 4d63/tldr/tldr`
-    (or [platform binaries](https://github.com/leighmcculloch/tldr/releases))
-  - [github.com/elecprog/tldr](https://github.com/elecprog/tldr):
-    `go get github.com/elecprog/tldr`
-    (or [platform binaries](https://github.com/elecprog/tldr/releases))
-  - [github.com/isacikgoz/tldr](https://github.com/isacikgoz/tldr):
-    `go get github.com/isacikgoz/tldr`
-    (or [platform binaries](https://github.com/isacikgoz/tldr/releases))
-- iOS clients:
-  - [tldr-man-page](https://github.com/freesuraj/TLDR), available on
-    [App Store](https://appsto.re/sg/IQ0-_.i)
-  - [tldr-pages](https://github.com/mflint/ios-tldr-viewer), available on
-    [App Store](https://itunes.apple.com/us/app/tldt-pages/id1071725095?ls=1&mt=8)
-- [Haskell client](https://github.com/psibi/tldr-hs):
-  `stack install tldr`
-  or `apt-get install tldr` on Debian-based distributions
-- [Node.js client](https://github.com/tldr-pages/tldr-node-client):
-  `npm install -g tldr`
-- [OCaml client](https://github.com/RosalesJ/tldr-ocaml): `opam install tldr`
-- [Perl5 client](https://github.com/shoichikaji/perl-tldr):
-  `cpanm App::tldr`
-- [PHP client](https://github.com/BrainMaestro/tldr-php):
-  `composer global require brainmaestro/tldr`
-- Python clients:
-  - [tldr-python-client](https://github.com/tldr-pages/tldr-python-client):
-    `pip install tldr` or `pacman -S tldr` on Arch Linux
-  - [tldr.py](https://github.com/lord63/tldr.py):
-    `pip install tldr.py` or `apt-get install tldr-py` on Debian-based distributions
-- [R client](https://github.com/kirillseva/tldrrr):
-  `devtools::install_github('kirillseva/tldrrr')`
-- [Ruby client](https://github.com/YellowApple/tldrb):
-  `gem install tldrb`
-- [Rust client](https://github.com/dbrgn/tealdeer):
-  `cargo install tealdeer`
-- [Vim Client](https://github.com/wlemuel/vim-tldr)
-- [Visual Studio Code extension](https://github.com/bmuskalla/vscode-tldr) available on [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=bmuskalla.vscode-tldr)
-- Web clients:
-    - [tldr.jsx](https://github.com/ostera/tldr.jsx): http://tldr.ostera.io/
-    - [DistroWatch](https://distrowatch.com/dwres.php?resource=man-pages)
-    - [tldr.ooops.me](https://tldr.ooops.me): web client with multilingual support
+```
+apt install tldr
+cd ~/.tldr
+git clone https://github.com/michaeljones32/tldr
+```
 
 There is also a comprehensive
 [list of clients in our Wiki](https://github.com/tldr-pages/tldr/wiki/TLDR-clients).
